@@ -14,9 +14,9 @@ TS = PUSH_TS -10 +5
 GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ud Ro Kl Ky Ku Kt
 PRM = CL
 baseline =24.3xED PA=17.6
-power = 
-fmode = 40 W
-obscode = 
+power = 40 W
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -28,9 +28,9 @@ TS = GB_TS -10 +5
 GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =18.9xED PA=11.2
-power = 
-fmode = 40 W
-obscode = 
+power = 40 W
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -42,9 +42,9 @@ TS = GB_TS -10 +5
 GRT = Ef Gb Wb Mc Nt Ys Tr Jb Ro Go
 PRM = CL
 baseline =19.7xED PA=10.4
-power = 
-fmode = 40 W
-obscode = 
+power = 40 W
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -56,9 +56,9 @@ TS = GB_TS -10 +5
 GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =26.4xED PA=17.5
-power = 
-fmode = 40 W
-obscode = 
+power = 40 W
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -71,7 +71,7 @@ GRT = Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =26.5xED PA=173.7
 power = 40 W
-fmode = 
+fmode = F3/F3
 obscode =
 /--------------------------------------
 /--------------------------------------
@@ -91,8 +91,8 @@ GRT = Sv Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go
 PRM = CL
 baseline =26.3xED PA=172.3
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -104,9 +104,9 @@ TS = GB_TS -10 +5
 GRT = Ev Ef Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =15.8xED PA=150.9
-power = 40 W 
-fmode = 
-obscode = 
+power = 40 W
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -118,9 +118,22 @@ TS = GB_TS -10 +5
 GRT = Sv Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar Kl
 PRM = CL
 baseline =15.6xED PA=57.9
-power = 40 W 
-fmode = 
-obscode = 
+power = 40 W
+fmode = F3/F3
+obscode =
+/--------------------------------------
+/--------------------------------------
+[SNS_JUSTIROVKA_var3]================================
+CasA            23:23:26.600000 +58:48:06.00000 J2000
+var3
+start= 02.12.2013 11:00:00
+stop = 02.12.2013 15:00:00
+SunVector_deflection = .0deg
+TS =
+beginscan = 02.12.2013 13:00:00
+endscan   = 02.12.2013 14:45:00
+GRT=
+PRM=CK
 /--------------------------------------
 /--------------------------------------
 [SNS_COMMAND]=====================================
@@ -138,8 +151,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =26.7xED PA=172.8
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -152,22 +165,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ud Ro Go Kl Ky Ku Kt
 PRM = CL
 baseline =26.2xED PA=111.1
 power = 40 W
-fmode = 
-obscode = 
-/--------------------------------------
-/--------------------------------------
-[observation]========================================
-0642+449        06:46:32.025999 +44:51:16.59010 J2000
-start= 03.12.2013 07:00:00
-stop = 03.12.2013 08:00:00
-SunVector_deflection =    .0deg
-TS = GB_TS -10 +5
-GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
-PRM = CL
-baseline =21.4xED PA=104.1
-power = 40 W 
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -180,8 +179,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =23.5xED PA=84.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -194,8 +193,8 @@ GRT = Gb Wb Ys Jb Ro Go Ar
 PRM = CL
 baseline =19.2xED PA=16.5
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -208,8 +207,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =24.6xED PA=170.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -222,8 +221,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ud Ro Kl Ky Ku Kt
 PRM = CL
 baseline =23.5xED PA=27.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -235,9 +234,9 @@ TS = GB_TS -10 +5
 GRT = Sv Zc Ev Ef Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =17.5xED PA=20.7
-power = 40 W 
-fmode = 
-obscode = 
+power = 40 W
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -250,8 +249,21 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =19.9xED PA=66.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
+/--------------------------------------
+/--------------------------------------
+[SNS_JUSTIROVKA_var3]================================
+CasA            23:23:26.600000 +58:48:06.00000 J2000
+var3
+start= 04.12.2013 12:00:00
+stop = 04.12.2013 16:00:00
+SunVector_deflection = .0deg
+TS =
+beginscan = 04.12.2013 14:00:00
+endscan   = 04.12.2013 15:45:00
+GRT=
+PRM=CK
 /--------------------------------------
 /--------------------------------------
 [SNS_COMMAND]=====================================
@@ -269,8 +281,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =20.7xED PA=165.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -283,8 +295,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ro Ak Kl Ky Ku Kt
 PRM = CL
 baseline =12.3xED PA=29.7
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -297,8 +309,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =13.3xED PA=36.3
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -311,8 +323,8 @@ GRT = Sv Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar
 PRM = CL
 baseline =11.6xED PA=81.8
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -325,8 +337,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =17.2xED PA=36.2
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -339,8 +351,8 @@ GRT = Sv Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar Kl
 PRM = CL
 baseline =12.0xED PA=166.8
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -353,8 +365,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =8.8xED PA=83.9
 power = 4 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -367,8 +379,8 @@ GRT = Sv Ef Gb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =7.4xED PA=88.3
 power = 4 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -392,8 +404,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =13.9xED PA=28.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -406,8 +418,8 @@ GRT = Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar
 PRM = CL
 baseline =14.9xED PA=8.8
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -426,8 +438,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ud Ro Ak Kl Ky Ku Kt
 PRM = CL
 baseline =16.6xED PA=6.2
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -440,8 +452,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =13.2xED PA=49.7
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -454,8 +466,8 @@ GRT = Sv Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar Kl
 PRM = CL
 baseline =10.9xED PA=61.0
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -468,8 +480,8 @@ GRT = Sv Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar
 PRM = CL
 baseline =18.1xED PA=13.5
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -482,8 +494,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =18.7xED PA=30.7
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -502,8 +514,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =20.8xED PA=165.3
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -516,8 +528,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =20.8xED PA=140.0
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -530,8 +542,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =17.8xED PA=62.2
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -544,13 +556,8 @@ GRT = Sv Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar Kl
 PRM = CL
 baseline =19.2xED PA=26.6
 power = 40 W
-fmode = 
-obscode = 
-/--------------------------------------
-/--------------------------------------
-[SNS_COMMAND]=====================================
-start= 07.12.2013 15:30:00
-stop = 07.12.2013 18:00:00
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -563,8 +570,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =25.5xED PA=176.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -577,8 +584,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =20.4xED PA=176.2
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -597,8 +604,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =21.9xED PA=6.5
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -611,8 +618,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =24.7xED PA=16.8
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -625,8 +632,13 @@ GRT = Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar
 PRM = CL
 baseline =15.5xED PA=42.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
+/--------------------------------------
+/--------------------------------------
+[SNS_COMMAND]=====================================
+start= 10.12.2013 16:00:00
+stop = 10.12.2013 19:00:00
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -639,8 +651,8 @@ GRT = Sv Zc Bd Ev Ef Gb Mc Nt Ys Tr Jb Ud Ro Go Kl Ky Ku Kt
 PRM = CL
 baseline =25.0xED PA=133.3
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -653,8 +665,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =25.7xED PA=158.0
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -673,8 +685,8 @@ GRT = Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =4.4xED PA=53.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -687,13 +699,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ud Ro Go Kl Ky Ku Kt
 PRM = CL
 baseline =24.3xED PA=106.4
 power = 40 W
-fmode = 
-obscode = 
-/--------------------------------------
-/--------------------------------------
-[SNS_COMMAND]=====================================
-start= 11.12.2013 16:00:00
-stop = 11.12.2013 18:30:00
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -706,8 +713,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Ys Tr Jb Kl
 PRM = CL
 baseline =25.7xED PA=156.7
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -726,8 +733,8 @@ GRT = Sv Zc Bd Ev Ef Mc Nt Ys Tr Jb Ud Ro Cd Ak Kl Ky Ku Kt
 PRM = CL
 baseline =25.1xED PA=19.9
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -740,8 +747,8 @@ GRT = Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =3.6xED PA=6.9
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -754,8 +761,13 @@ GRT = Sv Zc Bd Ev Ef Gb Mc Nt Ys Tr Jb Ud Ro Go Kl Ky Ku Kt
 PRM = CL
 baseline =25.5xED PA=2.2
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
+/--------------------------------------
+/--------------------------------------
+[SNS_COMMAND]=====================================
+start= 12.12.2013 16:30:00
+stop = 12.12.2013 19:00:00
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -768,8 +780,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ud Ro Go Kl Ky Ku Kt
 PRM = CL
 baseline =23.7xED PA=171.7
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -788,8 +800,8 @@ GRT = Zc Ev Ef Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =5.8xED PA=140.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -802,8 +814,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =17.8xED PA=79.9
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -816,13 +828,8 @@ GRT = Sv Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =16.8xED PA=17.0
 power = 40 W
-fmode = 
-obscode = 
-/--------------------------------------
-/--------------------------------------
-[SNS_COMMAND]=====================================
-start= 13.12.2013 17:00:00
-stop = 13.12.2013 19:30:00
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -835,8 +842,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =18.2xED PA=177.7
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -855,8 +862,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ro Ak Kl Ky Kt
 PRM = CL
 baseline =11.8xED PA=29.0
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -869,8 +876,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =11.4xED PA=30.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -883,13 +890,13 @@ GRT = Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar
 PRM = CL
 baseline =9.2xED PA=39.8
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_COMMAND]=====================================
 start= 15.12.2013 16:30:00
-stop = 15.12.2013 19:30:00
+stop = 15.12.2013 20:00:00
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -899,7 +906,7 @@ stop = 16.12.2013 01:30:00
 SunVector_deflection = .0deg
 TS = PUSH_TS -10 +5
 GRT= LBA
-PRM = LP
+PRM = PL
 obscode =
 baseline =
 power = 4 W
@@ -916,8 +923,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =13.9xED PA=162.0
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -936,8 +943,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =13.0xED PA=2.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -950,8 +957,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ud Ro Kl Ky Ku Kt
 PRM = CL
 baseline =19.4xED PA=179.7
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -964,8 +971,8 @@ GRT = Zc Ev Ef Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =18.2xED PA=170.9
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -978,13 +985,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ud Ro Go Kl Ky Ku Kt
 PRM = CL
 baseline =20.2xED PA=121.8
 power = 40 W
-fmode = 
-obscode = 
-/--------------------------------------
-/--------------------------------------
-[SNS_COMMAND]=====================================
-start= 17.12.2013 14:30:00
-stop = 17.12.2013 17:00:00
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -997,8 +999,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =22.7xED PA=176.0
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1011,8 +1013,8 @@ GRT = Sv Zc Ev Ef Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =14.8xED PA=177.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -1031,8 +1033,8 @@ GRT = Sv Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar Kl
 PRM = CL
 baseline =20.4xED PA=161.2
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1045,8 +1047,8 @@ GRT = Sv Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =8.0xED PA=15.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1059,8 +1061,13 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Kl
 PRM = CL
 baseline =25.4xED PA=5.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
+/--------------------------------------
+/--------------------------------------
+[SNS_COMMAND]=====================================
+start= 18.12.2013 15:00:00
+stop = 18.12.2013 18:00:00
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1068,12 +1075,13 @@ NRAO140         03:36:30.107611 +32:18:29.34220 J2000
 start= 18.12.2013 23:00:00
 stop = 19.12.2013 00:00:00
 SunVector_deflection =    .0deg
-TS = PUSH_TS -10 +5 GRT = Sv Zc Bd Ev Ef Gb Wb Mc Ys Tr Jb Ro Kl
+TS = PUSH_TS -10 +5
+GRT = Sv Zc Bd Ev Ef Gb Wb Mc Ys Tr Jb Ro Kl
 PRM = CL
 baseline =23.5xED PA=155.3
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -1092,8 +1100,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =17.8xED PA=172.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1106,8 +1114,8 @@ GRT = Zc Ev Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =21.8xED PA=163.4
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1120,13 +1128,8 @@ GRT = Sv Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar Kl
 PRM = CL
 baseline =15.5xED PA=55.0
 power = 40 W
-fmode = 
-obscode = 
-/--------------------------------------
-/--------------------------------------
-[SNS_COMMAND]=====================================
-start= 19.12.2013 15:00:00
-stop = 19.12.2013 17:30:00
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1139,8 +1142,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Ys Tr Jb Ro Kl
 PRM = CL
 baseline =25.1xED PA=153.3
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -1159,8 +1162,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =19.6xED PA=169.5
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1173,8 +1176,8 @@ GRT = Sv Zc Bd Ev Ef Gb Mc Nt Ys Tr Jb Ud Ro Go Kl Ky Ku Kt
 PRM = CL
 baseline =25.0xED PA=76.9
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1187,8 +1190,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =25.4xED PA=28.7
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1201,8 +1204,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ro Cd Ak Kl
 PRM = CL
 baseline =10.0xED PA=2.2
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -1221,8 +1224,8 @@ GRT = Sv Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar Kl
 PRM = CL
 baseline =26.0xED PA=171.9
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1235,8 +1238,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ro Kl Ky Ku Kt
 PRM = CL
 baseline =25.1xED PA=13.9
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1249,13 +1252,13 @@ GRT = Sv Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar Kl
 PRM = CL
 baseline =14.2xED PA=54.4
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_COMMAND]=====================================
 start= 21.12.2013 15:30:00
-stop = 21.12.2013 18:00:00
+stop = 21.12.2013 18:30:00
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1268,8 +1271,8 @@ GRT = Ev Ef Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =20.3xED PA=6.2
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -1288,8 +1291,8 @@ GRT = Sv Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar Kl
 PRM = CL
 baseline =22.6xED PA=167.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1302,8 +1305,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ud Ro Go Kl Ky Ku Kt
 PRM = CL
 baseline =22.1xED PA=47.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1316,8 +1319,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ud Ro Go Kl Ky Ku Kt
 PRM = CL
 baseline =19.8xED PA=96.8
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1330,8 +1333,8 @@ GRT = Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ud Ro Go Kl Ky Ku Kt
 PRM = CL
 baseline =19.1xED PA=121.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1344,8 +1347,8 @@ GRT = Zc Ev Ef Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =13.8xED PA=10.2
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -1364,8 +1367,8 @@ GRT = Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar
 PRM = CL
 baseline =16.8xED PA=170.2
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1378,8 +1381,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =13.4xED PA=33.5
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1391,9 +1394,9 @@ TS = GB_TS -10 +5
 GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =13.8xED PA=23.0
-power = 40 W 
-fmode = 
-obscode = 
+power = 40 W
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1406,8 +1409,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =13.5xED PA=26.7
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_COMMAND]=====================================
@@ -1425,8 +1428,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ud Ro Go Kl Ky Ku Kt
 PRM = CL
 baseline =9.4xED PA=54.1
 power = 4 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1439,8 +1442,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =11.0xED PA=7.8
 power = 4 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -1459,8 +1462,8 @@ GRT = Sv Zc Ef Mc Nt Ys Tr Ro Kl
 PRM = KK
 baseline =1.9xED PA=+25.8
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1473,8 +1476,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ud Ro Kl Ky Ku Kt
 PRM = CL
 baseline =15.1xED PA=144.7
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1487,8 +1490,8 @@ GRT = Sv Zc Ev Ef Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =12.9xED PA=159.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -1507,8 +1510,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Tr Jb Ud Ho Cd Td Ak Kl Ky Ku Kt
 PRM = CL
 baseline =20.5xED PA=4.2
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_COMMAND]=====================================
@@ -1526,8 +1529,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =14.9xED PA=165.5
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1540,8 +1543,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Kl
 PRM = CL
 baseline =20.5xED PA=140.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_LL]================================
@@ -1552,16 +1555,16 @@ GRT = Europe
 /--------------------------------------
 [observation]========================================
 0406+121        04:09:22.008713 +12:17:39.84767 J2000
-start= 27.12.2013 04:50:00
-stop = 27.12.2013 05:50:00
+start= 27.12.2013 05:00:00
+stop = 27.12.2013 06:00:00
 SunVector_deflection =    .0deg
 TS = GB_TS -10 +5
 GRT = Ef Gb Wb Mc Ys Tr Jb Ro Go Ar
 PRM = CL
 baseline =18.0xED PA=160.5
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1574,8 +1577,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =21.2xED PA=10.0
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1588,8 +1591,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =24.1xED PA=18.8
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1602,8 +1605,8 @@ GRT = Sv Zc Ev Ef Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =14.6xED PA=172.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1611,13 +1614,13 @@ obscode =
 start= 28.12.2013 05:00:00
 stop = 28.12.2013 06:00:00
 SunVector_deflection =    .0deg
-TS = PUSH_TS -10 +2
+TS = GB_TS -10 +5
 GRT = Sv Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar Kl
 PRM = CL
 baseline =23.3xED PA=149.8
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1630,8 +1633,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Ys Tr Jb Ro Kl
 PRM = CL
 baseline =27.3xED PA=5.5
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_COMMAND]=====================================
@@ -1649,8 +1652,8 @@ GRT = Sv Zc Bd Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =26.8xED PA=1.9
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1663,8 +1666,8 @@ GRT = Sv Zc Ev Ef Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =6.2xED PA=47.4
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1677,8 +1680,8 @@ GRT = Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =2.3xED PA=102.4
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1691,8 +1694,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =26.5xED PA=12.3
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1705,8 +1708,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =26.5xED PA=10.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1719,8 +1722,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Kl
 PRM = CL
 baseline =23.5xED PA=14.3
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1733,8 +1736,8 @@ GRT = Ef Gb Wb Mc Nt Ys Tr Jb Ro Go Ar
 PRM = CL
 baseline =25.3xED PA=171.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1747,8 +1750,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =23.9xED PA=8.8
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1761,8 +1764,8 @@ GRT = Sv Zc Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro Kl
 PRM = CL
 baseline =23.5xED PA=9.8
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [SNS_COMMAND]=====================================
@@ -1780,8 +1783,8 @@ GRT = Zc Ev Ef Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =15.8xED PA=11.6
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1794,8 +1797,8 @@ GRT = Gb Wb Mc Ys Tr Jb Ro Go Ar
 PRM = CL
 baseline =21.2xED PA=173.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1808,8 +1811,8 @@ GRT = Sv Zc Bd Ev Ef Wb Mc Nt Ys Tr Jb Ud Ro Kl Ky Ku Kt
 PRM = CL
 baseline =20.8xED PA=11.1
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
@@ -1822,6 +1825,6 @@ GRT = Ev Ef Gb Wb Mc Nt Ys Tr Jb Ro
 PRM = CL
 baseline =17.2xED PA=5.3
 power = 40 W
-fmode = 
-obscode = 
+fmode = F3/F3
+obscode =
 /--------------------------------------
