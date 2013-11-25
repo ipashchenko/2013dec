@@ -176,7 +176,7 @@ stop = 03.12.2013 08:00:00
 SunVector_deflection =    .0deg
 TS = GB_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = CK
 baseline =21.4xED PA=104.1
 power = 40 W
 fmode = F3/F3
@@ -218,7 +218,7 @@ stop = 04.12.2013 02:00:00
 SunVector_deflection =    .0deg
 TS = PUSH_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = LL
 baseline =24.6xED PA=170.1
 power = 40 W
 fmode = F3/F3
@@ -362,7 +362,7 @@ stop = 06.12.2013 04:00:00
 SunVector_deflection =    .0deg
 TS = PUSH_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = LL
 baseline =12.0xED PA=166.8
 power = 40 W
 fmode = F3/F3
@@ -376,7 +376,7 @@ stop = 06.12.2013 11:00:00
 SunVector_deflection =    .0deg
 TS = GB_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = LL
 baseline =8.8xED PA=83.9
 power = 4 W
 fmode = F3/F3
@@ -390,7 +390,7 @@ stop = 06.12.2013 14:00:00
 SunVector_deflection =    .0deg
 TS = GB_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = LL
 baseline =7.4xED PA=88.3
 power = 4 W
 fmode = F3/F3
@@ -415,7 +415,7 @@ stop = 07.12.2013 23:40:00
 SunVector_deflection =    .0deg
 TS = PUSH_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = KL
 baseline =13.9xED PA=28.1
 power = 40 W
 fmode = F3/F3
@@ -525,7 +525,7 @@ stop = 09.12.2013 03:00:00
 SunVector_deflection =    .0deg
 TS = PUSH_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = CK
 baseline =20.8xED PA=165.3
 power = 40 W
 fmode = F3/F3
@@ -696,7 +696,7 @@ stop = 11.12.2013 08:00:00
 SunVector_deflection =    .0deg
 TS = GB_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = CK
 baseline =4.4xED PA=53.1
 power = 40 W
 fmode = F3/F3
@@ -758,7 +758,7 @@ stop = 12.12.2013 08:00:00
 SunVector_deflection =    .0deg
 TS = GB_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = CK
 baseline =3.6xED PA=6.9
 power = 40 W
 fmode = F3/F3
@@ -811,7 +811,7 @@ stop = 13.12.2013 04:00:00
 SunVector_deflection =    .0deg
 TS = PUSH_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = CK
 baseline =5.8xED PA=140.1
 power = 40 W
 fmode = F3/F3
@@ -839,7 +839,7 @@ stop = 13.12.2013 11:00:00
 SunVector_deflection =    .0deg
 TS = GB_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = CK
 baseline =16.8xED PA=17.0
 power = 40 W
 fmode = F3/F3
@@ -887,7 +887,7 @@ stop = 14.12.2013 09:00:00
 SunVector_deflection =    .0deg
 TS = GB_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = CK
 baseline =11.4xED PA=30.6
 power = 40 W
 fmode = F3/F3
@@ -1080,7 +1080,7 @@ stop = 18.12.2013 02:00:00
 SunVector_deflection =    .0deg
 TS = PUSH_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = LK
 baseline =14.8xED PA=177.6
 power = 40 W
 fmode = F3/F3
@@ -1128,7 +1128,7 @@ stop = 18.12.2013 11:00:00
 SunVector_deflection =    .0deg
 TS = GB_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = LL
 baseline =25.4xED PA=5.6
 power = 40 W
 fmode = F3/F3
@@ -1489,20 +1489,6 @@ stop = 24.12.2013 14:30:00
 /--------------------------------------
 /--------------------------------------
 [observation]========================================
-2010+723        20:09:52.303840 +72:29:19.35044 J2000
-start= 24.12.2013 20:00:00
-stop = 24.12.2013 21:00:00
-SunVector_deflection =    .0deg
-TS = PUSH_TS -10 +5
-GRT = see VLBI schedule
-PRM = CL
-baseline =9.4xED PA=54.1
-power = 4 W
-fmode = F3/F3
-obscode = raks01oe
-/--------------------------------------
-/--------------------------------------
-[observation]========================================
 2309+454        23:11:47.408972 +45:43:56.01649 J2000
 start= 24.12.2013 23:00:00
 stop = 25.12.2013 00:00:00
@@ -1573,6 +1559,20 @@ GRT = Europe
 [observation]========================================
 1228+126        12:30:49.423382 +12:23:28.04365 J2000
 start= 26.12.2013 03:00:00
+stop = 26.12.2013 03:50:00
+SunVector_deflection =    .0deg
+TS = PUSH_TS -10 +5
+GRT = see VLBI schedule
+PRM = CK
+baseline =20.5xED PA=4.2
+power = 40 W
+fmode = F3/F3
+obscode = raks01oi
+/--------------------------------------
+/--------------------------------------
+[observation]========================================
+1228+126        12:30:49.423382 +12:23:28.04365 J2000
+start= 26.12.2013 04:00:00
 stop = 26.12.2013 05:00:00
 SunVector_deflection =    .0deg
 TS = PUSH_TS -10 +5
@@ -1596,7 +1596,7 @@ stop = 26.12.2013 23:00:00
 SunVector_deflection =    .0deg
 TS = PUSH_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = LL
 baseline =14.9xED PA=165.5
 power = 40 W
 fmode = F3/F3
@@ -1610,7 +1610,7 @@ stop = 27.12.2013 02:00:00
 SunVector_deflection =    .0deg
 TS = PUSH_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = LL
 baseline =20.5xED PA=140.6
 power = 40 W
 fmode = F3/F3
@@ -1747,7 +1747,7 @@ stop = 29.12.2013 06:00:00
 SunVector_deflection =    .0deg
 TS = PUSH_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = CK
 baseline =2.3xED PA=102.4
 power = 40 W
 fmode = F3/F3
@@ -1775,7 +1775,7 @@ stop = 29.12.2013 12:00:00
 SunVector_deflection =    .0deg
 TS = GB_TS -10 +5
 GRT = see VLBI schedule
-PRM = CL
+PRM = CK
 baseline =26.5xED PA=10.1
 power = 40 W
 fmode = F3/F3
